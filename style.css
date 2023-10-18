@@ -38,8 +38,17 @@ nav {
 }
 
 .logo {
-    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #f3f7f8;
     font-weight: bold;
+}
+
+.logo img{
+    height: 30px; /* Adjust as needed */
+    margin-right: 10px;
+
+    /* width: 50px; */
 }
 
 .links a, .auth-buttons a {
@@ -88,7 +97,7 @@ h1 {
 p {
     font-size: 1.2em;
     max-width: 600px;
-    margin: 20px auto;
+    margin: 5px auto;
 }
 
 .start-creating {
@@ -96,5 +105,5 @@ p {
     color: white;
     padding: 15px 30px;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 15px;
 }
